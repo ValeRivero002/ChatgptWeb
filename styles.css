@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Estilo general para el cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff; /* Todo el texto principal en blanco */
+    background-color: #343a40; /* Fondo principal del cuerpo */
+    background-image: url('src/background.jpg');
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff; /* Color del texto en la barra de navegación */
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #fff; /* Color del texto en los títulos de sección */
+}
+
+/* Estilo para la sección Acerca de Mí */
+#acercaDeMi {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    color: #333; /* Color del texto en esta sección */
+}
+
+/* Estilo para las imágenes de habilidades */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para las tarjetas de proyectos en la sección Portafolio */
+.card {
+    transition: transform 0.3s;
+    color: #333; /* Color del texto en las tarjetas de proyectos */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para la sección de Contacto */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #333; /* Color del texto en el formulario */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Añade más estilos según necesites */
